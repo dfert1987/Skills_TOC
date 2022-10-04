@@ -1,0 +1,161 @@
+.top-banner {
+  background-color: #ef5019;
+  height: 8em;
+}
+
+.main-page {
+  min-width: 768px;
+}
+
+.banner-texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-container.first {
+  padding-right: 3em;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+  cursor: pointer;
+  font-family: "Gilroy Bold";
+  font-size: 1.5em;
+  padding-top: 1em;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.nav-link:active {
+  color: #ef5019;
+}
+
+.nav-link.left {
+  padding-right: 2em;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4em;
+}
+
+.banner-title.first {
+  margin-left: 0.25em;
+  padding-top: 0.1em;
+  font-size: 3em;
+}
+
+.intro-text {
+  font-family: "Gilroy Medium";
+  font-size: 1em;
+  margin-bottom: 0;
+  padding-left: 0.1em;
+  padding-right: 0.5em;
+  width: 50%;
+}
+
+.key {
+  height: 6em;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+
+.bold-text {
+  color: #ef5019;
+  font-family: "Gilroy Extra Bold";
+}
+
+.instructions {
+  font-family: "Gilroy Italic";
+  font-size: 1.25em;
+  margin: 0;
+  padding-left: 3.5em;
+  position: relative;
+  width: 40%;
+  top: 1em;
+}
+
+.diagram-container {
+  margin-top: 0;
+  padding-left: 3.5em;
+}
+
+@media (min-width: 906px) {
+  .banner-title.first {
+    margin-left: 0.75em;
+  }
+}
+
+@media (min-width: 970px) {
+  .banner-title.first {
+    padding-top: 0.1em;
+    margin-left: 0.75em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-title.first {
+    padding-top: 0.75em;
+    margin-left: 0.75em;
+  }
+}
+
+@media (min-width: 1075px) {
+  .intro-text {
+    font-size: 1.1em;
+    padding-right: 0.5em;
+  }
+}
+
+@media (min-width: 1236px) {
+  .key {
+    padding-right: 5em;
+  }
+  .instructions {
+    font-size: 1.5em;
+  }
+  .intro-section {
+    padding-left: 6em;
+  }
+  .navigation-container.first {
+    padding-right: 6em;
+  }
+  .banner-title.first {
+    margin-left: 1.5em;
+  }
+}
+
+@media (min-width: 1351px) {
+  .key {
+    height: 10em;
+  }
+  .intro-text {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 1421px) {
+  .instructions {
+    font-size: 1.75em;
+  }
+  .intro-text {
+    font-size: 1.4em;
+    padding-right: 0.5em;
+  }
+}

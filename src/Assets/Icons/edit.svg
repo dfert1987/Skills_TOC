@@ -1,0 +1,12 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 13.1 13.1" style="enable-background:new 0 0 13.1 13.1" xml:space="preserve">
+  <style>
+    .st1{fill:none;stroke:#000;stroke-width:.25}
+  </style>
+  <switch>
+    <g>
+      <circle cx="6.54" cy="6.55" r="6.5" style="fill:#4ea4db"/>
+      <path class="st1" d="M3 2.04c-.04 0-.08.03-.08.08v8.9c0 .04.03.08.08.08h7.17c.04 0 .08-.03.08-.08V4.24c-.74-.73-1.48-1.47-2.21-2.2H3z"/>
+      <path class="st1" d="M7.96 2v1.99c0 .18.15.33.33.33h1.95M5.59 9.96l3.04-3.04-1.05-1.05C6.56 6.88 5.55 7.89 4.54 8.91c-.03.38-.05.75-.08 1.13.38-.03.75-.05 1.13-.08zM6.97 6.47l1.06 1.05M4.59 8.85l1.06 1.06M7.51 6.99 5.05 9.44M6.41 10.04h2.55"/>
+    </g>
+  </switch>
+</svg>

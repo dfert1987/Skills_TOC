@@ -1,0 +1,111 @@
+.st0 {
+  fill: #ffffff;
+}
+.spider {
+  padding-left: 2em;
+  width: 55%;
+}
+.st1 {
+  fill: #da521f;
+}
+.st2 {
+  font-family: "Gilroy Bold";
+}
+.st3 {
+  font-size: 12px;
+}
+.st4 {
+  fill: none;
+  stroke: #da521f;
+  stroke-width: 0.25;
+}
+.st5 {
+  fill: #a6ce39;
+}
+.st6 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.25;
+}
+
+.st3.skills {
+  stroke: none;
+}
+
+.st7 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.st8 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-linecap: round;
+}
+.st9 {
+  fill: #a788be;
+}
+.st10 {
+  fill: #00babe;
+}
+
+.st11 {
+  clip-path: url(#SVGID_2_);
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.25;
+}
+
+.st12 {
+  fill: #f99d1c;
+}
+.st13 {
+  fill: none;
+  stroke: #da521f;
+  stroke-width: 0.25;
+}
+.st14 {
+  font-size: 14px;
+}
+.st15 {
+  fill: #75bee9;
+}
+
+.guided {
+  cursor: pointer;
+}
+.st4.guided {
+  z-index: 100;
+}
+
+tspan {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.st0.anchor {
+  z-index: 100;
+}
+
+.anchor {
+  cursor: pointer;
+}
+
+.peer {
+  cursor: pointer;
+}
+
+.skills {
+  cursor: pointer;
+}
+
+@media (min-width: 1735px) {
+  .spider {
+    width: 60%;
+  }
+}

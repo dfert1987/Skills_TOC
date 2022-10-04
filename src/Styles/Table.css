@@ -1,0 +1,362 @@
+.main-page {
+  min-width: 768px;
+}
+
+.banner-title {
+  color: white;
+  font-family: "Gilroy Extra Bold";
+  font-size: 3em;
+  margin-left: 1.5em;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.banner-title {
+  font-size: 2.5em;
+  padding-left: 1em;
+  padding-top: 0.4em;
+}
+
+.nav-item {
+  padding-top: 0.25em;
+}
+
+.nav-link.left {
+  padding-right: 0.5em;
+}
+
+.navigation-container {
+  padding-right: 6.25em;
+  padding-top: 1.25em;
+}
+
+.table-container {
+  border-bottom: solid 2px #ef5019;
+  border-right: solid 2px #ef5019;
+  border-left: solid 2px #ef5019;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 0.5em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 2em;
+}
+
+.column.skills {
+  width: 35.5%;
+}
+
+.column.other {
+  width: 14.1%;
+}
+
+.asterisk {
+  font-family: "Gilroy Medium";
+  padding-right: 6em;
+  padding-top: 0.5em;
+  margin: 0;
+  text-align: right;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-row {
+  background-color: #ef5019;
+  border-right: 2px white solid;
+  height: 4.1em;
+}
+
+.header-row.guided-header {
+  border-right: none;
+}
+
+.header-text {
+  color: white;
+  font-family: "Gilroy Extra Bold";
+  font-size: 13px;
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.header-text.skill-header-text {
+  padding-left: 1em;
+  padding-top: 3.6em;
+  text-align: left;
+}
+
+.header-text.other-text {
+  text-align: center;
+}
+
+.header-text.other-text.coach {
+  padding-top: 2.3em;
+}
+
+.header-text.other-text.anchor {
+  padding-top: 2.3em;
+}
+
+.main-column {
+  border-right: 2px solid #ef5019;
+}
+
+.main-column.skills-text {
+  font-family: "Gilroy Medium";
+}
+
+.skill-item {
+  color: black;
+  font-size: 1em;
+  margin: 0;
+  padding-left: 1em;
+  padding-top: 0.75em;
+}
+
+.icon-input {
+  height: 1.5em;
+  margin: 0;
+  padding-top: 1em;
+}
+
+.info-row {
+  height: 4em;
+  padding-bottom: 0.25em;
+}
+
+.info-row.tan {
+  background-color: #f7f3e4;
+}
+
+.icon-input.present {
+  cursor: pointer;
+}
+
+.icon-input.present.guided {
+  cursor: default;
+}
+
+.main-column.icons.coach-icons {
+  text-align: center;
+}
+
+.main-column.icons.peer-icons {
+  text-align: center;
+}
+
+.main-column.icons.anchor-icons {
+  text-align: center;
+}
+
+.main-column.icons.slides-icons {
+  text-align: center;
+}
+
+.far-column {
+  text-align: center;
+}
+
+p.icon-input {
+  margin: 0;
+}
+
+@media (min-width: 791px) {
+  .header-text.other-text.peer {
+    padding-top: 2.3em;
+  }
+}
+
+@media (min-width: 815px) {
+  .header-text.other-text.coach {
+    padding-top: 3.6em;
+  }
+}
+
+@media (min-width: 819px) {
+  .header-text.other-text.peer {
+    padding-top: 2.3em;
+  }
+}
+
+@media (min-width: 819px) {
+  .header-text.other-text.slides {
+    padding-top: 2.3em;
+  }
+}
+
+@media (min-width: 680px) {
+  .banner-title {
+    font-size: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+  }
+
+  .nav-item {
+    font-size: 1em;
+    padding-top: 0.75em;
+  }
+  .nav-link.left {
+    padding-right: 0.75em;
+  }
+}
+
+@media (min-width: 855px) {
+  .header-text.other-text.guided {
+    padding-top: 2.3em;
+  }
+}
+
+@media (min-width: 874px) {
+  .header-text.other-text.anchor {
+    padding-top: 3.6em;
+  }
+  .nav-item {
+    font-size: 1.25em;
+    padding-top: 0.25em;
+  }
+}
+
+@media (min-width: 906px) {
+  .banner-title {
+    font-size: 3em;
+    padding-left: 0.5em;
+    padding-top: 0.1em;
+  }
+}
+
+@media (min-width: 944px) {
+  .info-row {
+    padding-top: 1em;
+  }
+}
+
+@media (min-width: 980px) {
+  .header-text {
+    font-size: 15px;
+  }
+
+  .header-text.skill-header-text {
+    padding-top: 3em;
+  }
+  .header-text.other-text.coach {
+    padding-top: 3em;
+  }
+
+  .header-text.other-text.peer {
+    padding-top: 1.75em;
+  }
+
+  .header-text.other-text.anchor {
+    padding-top: 3em;
+  }
+
+  .header-text.other-text.slides {
+    padding-top: 1.75em;
+  }
+
+  .header-text.other-text.guided {
+    padding-top: 1.75em;
+  }
+}
+
+@media (min-width: 1082px) {
+  .banner-title {
+    padding-left: 0.5em;
+    padding-top: 0.75em;
+  }
+}
+
+@media (min-width: 1125px) {
+  .nav-link.left {
+    padding-right: 2em;
+  }
+  .navigation-container {
+    padding-right: 6em;
+  }
+
+  @media (min-width: 1200px) {
+    .header-text {
+      font-size: 18px;
+    }
+
+    .header-text.skill-header-text {
+      padding-top: 2.3em;
+    }
+
+    .header-text.other-text.coach {
+      padding-top: 2.3em;
+    }
+
+    .header-text.other-text.peer {
+      padding-top: 1em;
+    }
+
+    .header-text.other-text.anchor {
+      padding-top: 2.3em;
+    }
+
+    .header-text.other-text.slides {
+      padding-top: 1em;
+    }
+
+    .header-text.other-text.guided {
+      padding-top: 1em;
+    }
+  }
+
+  @media (min-width: 1414px) {
+    .header-text.other-text.peer {
+      padding-top: 2.3em;
+    }
+  }
+
+  @media (min-width: 1538px) {
+    .header-text.other-text.slides {
+      padding-top: 2.3em;
+    }
+  }
+
+  @media (min-width: 1578px) {
+    .info-row {
+      height: 1.5em;
+      padding-bottom: 1em;
+      padding-top: 0em;
+    }
+
+    .icon-input {
+      padding-bottom: 01em;
+      padding-top: 0.5em;
+    }
+  }
+
+  @media (min-width: 1714px) {
+    .header-text.other-text.guided {
+      padding-top: 1.6em;
+    }
+    .header-text.other-text.slides {
+      padding-top: 1.6em;
+    }
+    .header-text.other-text.anchor {
+      padding-top: 1.6em;
+    }
+    .header-text.other-text.peer {
+      padding-top: 1.6em;
+    }
+    .header-text.other-text.coach {
+      padding-top: 1.6em;
+    }
+    .header-text.skill-header-text {
+      padding-top: 1.6em;
+    }
+    .header-row {
+      height: 3.5em;
+    }
+  }
+}
